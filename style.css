@@ -640,3 +640,34 @@ h3 {
         }
     }
 }
+
+footer {
+    background-color: var(--blue-800);
+}
+
+.footer_container {
+    padding-block: 3rem 2rem;
+    row-gap: 3rem;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+
+.footer_link {
+    color: var(--yellow-100);
+    font-weight: 600;
+    transition: color .4s;
+}
+
+.footer_link:hover {
+    color: var(--yellow-200);
+}
+
+.footer_copy {
+    color: var(--yellow-100);
+    font-size: 1rem;
+    text-align: center;
+}
